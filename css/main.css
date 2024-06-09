@@ -31,7 +31,7 @@ body.pc {
 }
 
 .bg-image-body {
-    background-image: url('images-pc/bg-body.png');
+    background-image: url('../images-pc/bg-body.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -230,7 +230,7 @@ header {
 
 .main-app {
     padding-bottom: 100px;
-    background-image: url(images-pc/bg-main-app.png);
+    background-image: url(../images-pc/bg-main-app.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -343,7 +343,7 @@ header {
     padding: 4px;
     border-radius: unset;
     border: none;
-    background-image: url('images-pc/backgroud-product.png') !important;
+    background-image: url('../images-pc/backgroud-product.png') !important;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -1335,7 +1335,7 @@ p {
 @media screen and (max-width: 767px) {
 
     .footer-main {
-        background-image: url('images-footer/background-footer-1.jpg?v=1');
+        background-image: url('../images-footer/background-footer-1.jpg?v=1');
     }
 
     .footer {
@@ -1530,7 +1530,7 @@ p {
     .main-app {
         padding: 0 10px;
         padding-bottom: 30px;
-        background-image: url(images-pc/bg-main-app-sp.png?v=12);
+        background-image: url(../images-pc/bg-main-app-sp.png?v=12);
     }
 
     .box-content {

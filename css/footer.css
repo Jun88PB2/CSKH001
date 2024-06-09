@@ -1,0 +1,292 @@
+
+
+a {
+  text-decoration: none;
+}
+
+.footer-mobie {
+  display: none;
+}
+
+
+.box-info {
+  width: 100%;
+  background-color: white;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+.title-info {
+  display: flex;
+  justify-content: center;
+}
+.title-info h3 {
+  color: rgb(37, 169, 223);
+  font-family: "Roboto";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  text-transform: capitalize;
+}
+.intro-info {
+  display: flex;
+  justify-content: space-between;
+}
+.col-info-4 .link-info {
+  margin-bottom: 16px;
+}
+.link-info a {
+  color: #02A9DC;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.info-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-content-left img {
+  width: 80%;
+}
+
+.info-content p {
+  color: #25abe0;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: justify;
+  width: 90%;
+  margin-top: 10px;
+}
+
+.right-info-title {
+  text-align: center;
+  padding: 5px;
+  padding-left: 15%;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.right-info-title h4 {
+  color: #02A9DC;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.footer-img {
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.footer-img-left{
+  width: 45%;
+  margin-right: 5%;
+  padding: 0;
+}
+
+.footer-img-right {
+  width: 50%;
+}
+
+
+.footer-img-left-item, .footer-img-right-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-img-left-item img{
+  width: 32%;
+}
+.footer-img-right-item img{
+  
+  height: 40px;
+}
+.content-left-img1 {
+    height: 46px;
+}
+.content-left-img2 {
+    height: 60px;
+}
+.content-left-img3 {
+    height: 37px;
+}
+.see-more,
+.see-scope {
+  display: inline-block;
+  cursor: pointer;
+  font-style: italic;
+  color: #25abe0;
+  text-decoration: underline;
+}
+.row-content {
+  display: flex;
+  align-items: center;
+  margin: 15px 0 20px 0;
+}
+
+.content-left {
+  width: 50%;
+  padding: 0; 
+}
+.content-left h3{
+  color: #25ABE0;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.content-right h3{
+  color: #25ABE0;
+  font-size: 18px;
+}
+
+.content-left p {
+  font-weight: 400; 
+  font-size: 16px;
+  margin: 0;
+  color: rgb(37, 171, 224);
+  font-family: "Times New Roman", Sans-Serif;
+}
+
+.content-right {
+  width: 50%;
+  display: flex;
+  
+}
+.content-right img {
+  width: 100%;
+  height: fit-content;
+}
+
+.content-right-image-left {
+  width: 17%;
+}
+.content-right-image-right {
+  width: 75%;
+}
+
+.list-mxh {
+  display: flex;
+  justify-content: center;
+}
+
+.copyright {
+  /*background-color: #E9F9FF ;*/
+  padding: 5px;
+
+}
+.copyright p {
+  color: #00ABE5;
+  text-align: center;
+  font-style: italic;
+  font-size: 14px;
+  margin: 0;
+}
+
+.footer-icon {
+  text-align: center;
+}
+
+
+@media screen and (max-width: 1199px) {
+  
+}
+
+
+@media screen and (max-width: 1024px) {
+  .title-info h3 {
+    font-size: 18px;
+  }
+  .content-left h3 {
+    font-size: 16px;
+  }
+  .content-left p {
+    text-align: left;
+  }
+  
+}
+
+@media screen and (max-width: 767px) {
+
+  .footer-mobie {
+    display: block;
+    padding: 10px 0;
+  }
+
+ 
+  .content-left h3 {
+    font-size: 16px;
+  }
+  .content-left p {
+    font-size: 14px;
+  }
+
+  .info-Jun88 {
+    display: none;
+  }
+  
+  .sign {
+    width: 50%;
+  }
+
+  .box-info {
+    display: none;
+  }
+
+  .list-mxh {
+    justify-content: flex-start;
+  }
+  .list-mxh img {
+    width: 45%;
+    height: auto;
+  }
+  .copyright {
+    display: none;
+  }
+  
+  .content-right img {
+      width: 75%;
+  }
+  
+}
+
+@media screen and (max-width: 474px) {
+  .content-left h3 {
+    font-size: 14px;
+  }
+  .content-left p {
+    font-size: 14px;
+  }
+   .content-right img {
+      width: 95%;
+  }
+  .content-left-img1 {
+    height: 40px;
+}
+.content-left-img2 {
+    height: 50px;
+}
+  .content-left-img3 {
+      height: 27px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .content-left h3 {
+    font-size: 12px;
+  }
+  .content-right img {
+      width: 100%;
+  }
+  
+}
+@media screen and (max-width: 320px){
+      .content-left-img1 {
+    height: 34px;
+}
+}

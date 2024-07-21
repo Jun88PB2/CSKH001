@@ -46,7 +46,6 @@ footer .title-partner h2 {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin-top: 10px;
   margin-bottom: 5px;
 }
 
@@ -77,13 +76,13 @@ footer .title-partner h2 {
 
 /* ambassador */
 footer .footer-endorser h2 {
-  padding-top: 10px;
+  /* padding-top: 10px; */
 }
 
 .group-ambassador {
   display: flex;
   gap: 100px;
-  margin: 17px 0px 0px;
+  margin: 10px 0px 0px;
 }
 
 

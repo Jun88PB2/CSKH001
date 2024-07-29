@@ -1,10 +1,10 @@
 footer {
-  background: linear-gradient(180deg, hsla(0, 0%, 100%, .92), #8bdbff);
-  padding: 10px 0;
+  padding: 20px 0px 10px;
   position: relative;
 }
 
 #footer-mb {
+  background: linear-gradient(180deg, hsla(0, 0%, 100%, .92), #8bdbff);
   display: none;
 }
 
@@ -20,9 +20,11 @@ footer .footer-curve {
 
 footer .title-partner h2 {
   color: #25ABE0;
-  font-size: 26px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 500;
   margin-bottom: 0px;
+  line-height: 22px;
+  letter-spacing: -0.8px;
 }
 
 .title-partner.fix-pd {
@@ -31,9 +33,9 @@ footer .title-partner h2 {
 
 .footer-logo {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
-  gap: 20px;
+  gap: 100px;
 }
 
 .group-team {
@@ -52,26 +54,28 @@ footer .title-partner h2 {
 .group-team-logo .team-partner {
   max-width: 78px;
   width: 100%;
-  padding-right: 20px;
+  padding-right: 10px;
 }
 
 .group-team-logo .team-partner img,
 .group-team-logo .team-company img {
-  width: 85%;
-  height: auto
+  height: 60px;
 }
 
 .group-team-logo .team-company {
   max-width: 185px;
   width: 100%;
-  padding-left: 20px;
+  padding-left: 10px;
   border-left: 2px solid #26A8DF;
 }
 
 .title-partner {
   padding-left: 3px;
-  font-size: 18px;
+  font-size: 16px;
   color: #25ABE0;
+  line-height: 18.75px;
+  font-weight: 400;
+
 }
 
 /* ambassador */
@@ -82,7 +86,8 @@ footer .footer-endorser h2 {
 .group-ambassador {
   display: flex;
   gap: 100px;
-  margin: 10px 0px 0px;
+  padding-top: 10px;
+  justify-content: space-between;
 }
 
 
@@ -99,7 +104,7 @@ footer .footer-main,
 footer .footer-main-middle {
   display: flex;
   justify-content: space-between;
-  gap: 25px;
+  gap: 80px;
 }
 
 footer .footer-main .footer-cont {
@@ -110,7 +115,7 @@ footer .footer-main .footer-cont {
 }
 
 footer .footer-logo {
-  margin-bottom: 15px;
+  padding-top: 5px;
 }
 
 footer .footer-main .left,
@@ -193,7 +198,7 @@ footer .footer-intro {
 
 footer .footer-logo>img {
   display: block;
-  height: 70px;
+  height: 80px;
   width: auto;
 }
 
@@ -230,7 +235,7 @@ footer .footer-main2 .item-icon-ft {
 
 footer .footer-main2 .item-icon-ft img {
   width: auto;
-  height: 30px;
+  height: 35px;
   transition: all 0.4s;
 }
 
@@ -329,7 +334,7 @@ footer .footer-link {
 
 footer .footer-link a {
   color: #014966;
-  font-size: 18px;
+  font-size: 16px;
   text-decoration: none;
   text-transform: capitalize;
   text-align: center;
@@ -386,10 +391,82 @@ footer .footer-okvip {
   width: 90%;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
+
+  footer .footer-main,
+  footer .footer-main-middle {
+    gap: 30px;
+  }
+
   footer .footer-logo {
     padding-top: 10px;
-    justify-content: space-around;
+    justify-content: flex-start;
+  }
+
+
+
+
+  footer .footer-okvip .okvip-img {
+    gap: 10px;
+    max-width: 255px;
+  }
+
+  .group-team-logo .team-partner {
+    max-width: 60px;
+    padding-right: 10px;
+  }
+
+  .group-team-logo .team-company {
+    max-width: 145px;
+    padding-left: 10px;
+  }
+
+  .group-ambassador {
+    gap: 25px;
+  }
+
+  .group-team-logo {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  footer .title-partner h2 {
+    font-size: 20px;
+  }
+
+  footer .footer-main2 .item-icon-ft img {
+    height: 30px;
+  }
+
+  footer .footer-link a {
+    font-size: 15px;
+  }
+
+}
+
+@media screen and (max-width: 1200px) {
+  footer .title-partner h2 {
+    font-size: 20px !important;
+    line-height: 20px;
+  }
+
+  footer .footer-logo {
+    padding-top: 5px;
+    justify-content: flex-start;
+    gap: 55px
+  }
+
+  .title-partner {
+    font-size: 16px;
+  }
+
+  .group-team-logo .team-partner img,
+  .group-team-logo .team-company img {
+    height: 50px;
+  }
+
+  .ambassador img {
+    width: 90% !important;
   }
 
   footer .footer-okvip .okvip-img {
@@ -423,9 +500,29 @@ footer .footer-okvip {
   footer .footer-main2 .item-icon-ft img {
     height: 30px;
   }
+
+  footer .footer-link a {
+    font-size: 14px;
+  }
 }
 
 @media only screen and (max-width: 990px) {
+  footer .title-partner h2 {
+    font-size: 16px !important;
+    line-height: 16px;
+  }
+
+  footer .footer-logo {
+    padding-top: 5px;
+    justify-content: flex-start;
+    gap: 40px;
+  }
+
+  .group-team-logo .team-partner img,
+  .group-team-logo .team-company img {
+    height: 35px;
+  }
+
   .title-partner {
     font-size: 14px;
   }
@@ -436,6 +533,14 @@ footer .footer-okvip {
 
   footer .footer-link a {
     font-size: 14px;
+  }
+
+  footer .footer-main2 .item-icon-ft img {
+    height: 20px;
+  }
+
+  footer .footer-link a {
+    font-size: 12px;
   }
 }
 
@@ -461,15 +566,16 @@ footer .footer-okvip {
   .footer-mb-wrap .wp-title h2 {
     color: #25ABE0;
     font-size: 20px;
-    font-weight: 700;
-    padding-bottom: 5px;
+    font-weight: 600;
+    padding-top: 10px;
+    margin-bottom: 3px;
+    line-height: 1;
   }
 
   .group-ambassador-sp,
   .group-partner-sp {
     display: flex;
     align-items: center;
-    padding-bottom: 5px;
     gap: 20px;
   }
 
@@ -486,16 +592,18 @@ footer .footer-okvip {
   }
 
   .tt-ambassador h3 {
-    font-size: 4vw;
+    font-size: 15px;
+    font-weight: 400;
     color: #25ABE0;
     display: flex;
     align-items: center;
-    line-height: 1.7;
+    line-height: 1.1;
   }
 
   .ambassador-sign .logo-sign {
-    width: 77%;
-    padding-left: 15px;
+    width: 65%;
+    padding-left: 0px;
+
   }
 
   .tt-ambassador,
@@ -521,13 +629,14 @@ footer .footer-okvip {
   }
 
   .ambassador-logo .logo-partner img {
-    width: 9vw;
+    width: 7vw;
   }
 
   .ambassador-logo .logo-okvip img {
-    width: 33vw;
+    width: 30vw;
     height: auto;
-    padding-left: 15px;
+    padding-left: 20px !important;
+    margin-left: 10px;
     border-left: 2px solid #26A8DF;
   }
 
@@ -537,6 +646,7 @@ footer .footer-okvip {
     flex-wrap: wrap;
     padding: 5px 0px 10px;
     row-gap: 10px;
+    list-style: none;
   }
 
   .list-multimedia .item-media {
@@ -546,7 +656,7 @@ footer .footer-okvip {
   .list-multimedia .item-media .title {
     font-size: 3.7vw;
     color: #00ABE5;
-    padding-bottom: 15px;
+    padding-top: 15px;
   }
 
   .media-image {
